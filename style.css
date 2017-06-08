@@ -1,0 +1,137 @@
+.container{
+	background-image: url('../images/bgrnd.jpg');
+	height: 700px;
+	width:1000px;
+}
+
+h1{
+	font-size: 450%;
+	color:#808080;
+}
+
+.header {
+	height: 80px;
+	margin: 80px 100px 40px;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 800px;
+}
+
+.images{
+	display: inline-block;
+	height: 400px;
+	width: 230px;
+	overflow: hidden;
+	background-color: #808080;
+
+}
+
+#click{
+	text-align: center;
+	font-size: 300%;
+	padding: 50px;
+}
+
+.UserChoice {
+	height: 400px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	width: 230px;
+	color: blue;
+	text-align: center;
+}
+
+.yourPic{
+	height: 400px;
+	background-color: purple;
+	display: inline-block;
+	margin: 5px;
+	width: 230px;
+	overflow: hidden;
+	position: relative;
+	background-color: #808080;
+
+}
+
+.song{
+	height: 400px;
+	display: inline-block;
+	margin: 5px;
+	width: 230px;
+	overflow: hidden;
+	position: relative;
+	background-color: #FFFFFF;
+
+
+}
+
+h3{
+	text-align: center;
+}
+
+button.play{
+	background-image: url('../images/play.png');
+	height: 15%;
+	width: 25%;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+
+button.stop{
+	background-image: url("../images/stop.jpg");
+	background-repeat: no-repeat;
+	background-size: 120%;
+	height: 15%;
+	width: 25%;
+	display: none;
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+
+button.next{
+	background-image: url('../images/next.png');
+	height: 15%;
+	width: 23%;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	float: right;
+	margin-right: 5px; 
+}
+
+button.prev{
+	background-image: url('../images/previous.png');
+	height: 15%;
+	width: 23%;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	float: left;
+	margin-left:5px;
+}
+
+#playlist{
+	list-style: none;
+	font-size: 150%;
+}
+
+.scoreboard{
+	display: inline-block;
+	float: left;
+	font-size: 250%;
+	height: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 700px;
+	background-color: #808080;
+	color:#0000ff;
+
+}
+
+.scoreboard p{
+ margin:15px;
+}
+
+

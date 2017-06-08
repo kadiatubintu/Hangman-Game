@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>HANGMAN</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script   src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">
+			<h1>Pick your Pop Artist</h1>
+		</div>
+		<div class="images">
+			<p id="click">Click to see if you win</p>
+			<a href="#" class="click"></a>
+		</div>
+		<div class="UserChoice">
+			<br><p class="backstreet image">Backstreet</p><br>
+			<p class="Bey image">Beyonce</p><br>
+			<p class="Taylor image">Taylor Swift</p><br>
+			<p class="Coldplay image">ColdPlay</p><br>	
+			<p class="Black image">Black Eye Peas</p><br><br>
+		</div>
+
+		<div class="yourPic">
+		</div>
+ 		<div class="song">
+ 			<h3>Songs to play</h3>
+			<ul id="playlist">
+				<li song="../hangmanMusic/backstreet.mp3" artist="Backstreet Boys">That way</li><br>
+				<li song="../hangmanMusic/bey.mp3" artist="Beyonce">Irreplaceble</li><br>
+				<li song="../hangmanMusic/taylor.mp3" artist="Taylor Swift">You Belong</li><br>
+				<li song="../hangmanMusic/coldplay.mp3" artist="Coldplay">Viva La Vida</li><br>
+				<li song="../hangmanMusic/black.mp3" artist="Black Eye Peas">Where is the Love</li>
+			</ul>
+			<button class="play"></button>
+			<button class="stop"></button>
+			<button class="next"></button>
+			<button class="prev"></button>
+		</div>
+
+		<div class="scoreboard">
+			<p class=Winnings>Wins</p>
+			<p class="Loss">Losses</p>
+		</div>	
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
